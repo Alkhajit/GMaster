@@ -24,6 +24,11 @@ repositories {
 
 
 dependencies {
+	//compile('org.springframework.boot:spring-boot-starter-activemq')
+	//compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	//compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	//compile('org.hibernate:hibernate-core:5.2.12.Final')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile('org.springframework.security:spring-security-test')
 }
