@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { HttpModule } from '@angular/http'
 import { HttpClientModule }from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
+
+import {MatTableModule} from '@angular/material/table';
 import { AppHome } from './app.home';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
@@ -19,7 +21,8 @@ import { RaceListComponent } from './race-list/race-list.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule],
+    HttpClientModule,
+  MatTableModule],
   providers: [],
   bootstrap: [AppHome]
 })
