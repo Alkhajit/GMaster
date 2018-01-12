@@ -25,10 +25,14 @@ repositories {
 
 dependencies {
 	//compile('org.springframework.boot:spring-boot-starter-activemq')
-	//compile('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	//compile('org.springframework.boot:spring-boot-starter-security')
+	//compile('com.h2database:h2')
 	compile('org.springframework.boot:spring-boot-starter-web')
-	//compile('org.hibernate:hibernate-core:5.2.12.Final')
+	compile('org.hibernate:hibernate-core:5.2.12.Final')
+// https://mvnrepository.com/artifact/io.jsonwebtoken/jjwt
+	//compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.2'
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	testCompile('org.springframework.security:spring-security-test')
 }
